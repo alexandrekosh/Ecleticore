@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montaga&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+:root {
+	--color-1: #745c5b;
+	--color-2: #cc9d87;
+	--color-3: #b19a92;
+	--color-4: #dec9aa;
+	--color-5: #c79859;
+
+	--gold: #f8db67;
+	--white: #f2ede1;
+	--brown: #5b432c;
+	--gray: #131518;
+	--black: #040404;
+}
+body {
+	font-size: 100%;
+	font-family: /*"Montaga",*/ serif;
+	background-color: var(--color-4);
+}
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+}
+.cabecalho-img {
+	height: 2em;
+}
+.cabecalho-nav {
+	display: flex;
+	gap: 32px;
+}
+.cabecalho-nav-btn {
+    color: var(--brown);
+	font-size: 18px;
+}
+.cabecalho-nav-btn:hover {
+    text-decoration: underline;
+    color: #cc9d87;
+}
+.conteudo{
+    margin-bottom: 24px;
+    border-top: 0.4px solid var(--color-1);
+}
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+}
+.conteudo-principal-escrito-titulo{
+    font-size: 40px;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.conteudo-principal-escrito-btn{
+    background-color: var(--color-2);
+    color: var(--color-4);
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+}
+.conteudo-principal-img{
+    height: 30px;
+    margin: 10px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-secundario-titulo{
+    margin-bottom: 16px;
+    border-top: 0.4px solid #745c5b;
+    padding-top: 40px;
+}
+.rodape{
+    padding: 22px;
+    border-top: 0.4px solid #745c5b;
+    text-align: center;
+    margin-top: 54px;
+}
+.rodape-social{
+    color: var(--gray);
+    font-size: 20px;
+}
